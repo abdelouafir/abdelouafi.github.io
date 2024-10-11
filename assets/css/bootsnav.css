@@ -52,7 +52,7 @@ nav.navbar.bootsnav{
 }
 
 nav.navbar.bootsnav ul.nav > li > a{
-    color: #6f6f6f;
+    color: black;
     background-color: transparent;
     outline: none;
     margin-bottom: -2px;
@@ -228,7 +228,7 @@ li.close-full-menu{
 }
 
 .attr-nav > ul > li > a{
-    color: #6f6f6f;
+    color: black;
     display: block;
     padding: 28px 15px;
     position: relative;
@@ -1239,6 +1239,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         border-top: solid 5px;
     }
     
+    
     .top-search .container{
         padding: 0 45px;
     }
@@ -1370,7 +1371,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         width: 100%;
         display: block;
     }
-}
+
 
 @media (max-width: 767px) {
     nav.navbar.bootsnav .navbar-header {
@@ -1471,4 +1472,3 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         padding-bottom: 30px;
     }
 }
-
