@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>works</title>
+    <meta name="description" content="Learn how to effectively label form elements for accessibility. Improve user experience for sighted and non-sighted users with these practical tips.">
+
             <!--font-awesome.min.css-->
             <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
@@ -39,21 +41,21 @@
                 <div class="header-top-left">
                     <ul>
                         <li class="select-opt">
-                            <select name="language" id="language">
+                            <select title="language" name="language" id="language">
                                 <option value="default">EN</option>
                                 <option value="French">FR</option>
                                 <option value="Arabic">AB</option>
                             </select>
                         </li>
-                        <li class="select-opt">
-                            <select name="currency" id="currency">
+                        <li title="letat" class="select-opt">
+                            <select aria-label="status" name="currency" id="currency">
                                 <option value="usd">USD</option>
                                 <option value="euro">Euro</option>
                                 <option value="mad">MAD</option>
                             </select>
                         </li>
-                        <li class="select-opt">
-                            <a href="#"><span class="lnr lnr-magnifier"></span></a>
+                        <li title="cherche" class="select-opt">
+                            <a aria-label="lnr lnr-magnifier" href="index.html"><span class="lnr lnr-magnifier"></span></a>
                         </li>
                     </ul>
                 </div>
@@ -65,7 +67,7 @@
                             +212 222 777 6565
                         </li>
                         <li class="header-top-contact">
-                            <a href="#">sign in</a>
+                            <a href="">sign in</a>
                         </li>
                         <li class="header-top-contact">
                             <a href="#">register</a>
@@ -85,7 +87,7 @@
 
                     <!-- Start Header Navigation -->
                     <div class="navbar-header">
-                        <button aria-label="nave-bare" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <button aria-label="navbar-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
                         <a class="navbar-brand" href="index.html">listo<span>go</span></a>
